@@ -1,0 +1,22 @@
+{
+
+   "db-connections":{
+       "mongodb":{
+           "host":"cluster0.iwats.mongodb.net",
+           "user":"acad_rest_api_user",
+           "password":"IRV4b31mDpCFoj8K",
+           "dbname":"E-commerceDB"
+       }
+   },
+   "secretKeys":{
+       "cryptojs": "micontraseñaES",
+       "jwt":"ABC@2021*"
+   },
+   "roles":{
+       "student":1,
+       "teacher":2
+   },
+   "server-port":3000 ,
+   "sessionTime":3600
+
+}
